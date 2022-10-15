@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+body{
+    margin: 0;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+a {
+    text-decoration: none;
+    margin: 7px 0;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    transition: 0.3s;
+    opacity: 0.75;
+    letter-spacing: 1px;
+}
+.header-menu a:hover{
+    color: #FF9900;
+    opacity: 1;
+}
+.link-button{
+    background-color: #0007AA;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+.link-button:hover{
+    box-shadow: 0px 15px 20px rgb(57 63 72 / 30%);
+    background-color: #FF9900;
+}
+.background-blue{
+    background-color: #0007AA;
+}

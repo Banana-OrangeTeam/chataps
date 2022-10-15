@@ -1,0 +1,19 @@
+.chat-list-container{
+    max-width: 420px;
+    width: 100%;
+    border-right: solid 1px black;
+    height: 100%;
+    /* overflow:hidden; */
+}
+.chat-info{
+    padding: 10px 20px 0px 10px;
+}
+.chat-info:hover{
+    background-color: rgb(225, 223, 223);
+    border-radius: 15px;
+    cursor: pointer;
+}
+.chat-subtitle{
+    display: flex;
+    justify-content: space-between;
+}
