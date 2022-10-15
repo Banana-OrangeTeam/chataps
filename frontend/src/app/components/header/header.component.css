@@ -1,0 +1,24 @@
+.header-container{
+    position: relative;
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: #3b394a;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 3px 5px rgb(57 63 72 / 30%);
+    z-index: 1;
+}
+.logo{
+    padding-left: 10px;
+    display: flex;
+    align-content: center;
+}
+.logo:hover{
+    cursor: pointer;
+}

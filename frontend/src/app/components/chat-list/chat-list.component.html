@@ -1,0 +1,15 @@
+<div class="chat-list-container"> 
+    <div class="chat-info" *ngFor="let chat of userChatList; let i = index">
+        <div class="chat-title">
+            {{chat.name}}
+        </div>
+        <div class="chat-subtitle">
+            <div class="last-message">
+                {{chat.lastMessageText}}
+            </div>
+            <div class="last-message-time">
+                {{chat.lastMessageCreatedAt}}
+            </div>
+        </div>
+    </div>
+</div>
